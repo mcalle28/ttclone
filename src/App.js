@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Video from './components/Video';
+import VideoFooter from './components/VideoFooter';
+import VideoSidebar from './components/VideoSidebar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="l2">
+        <h1>TikTok Clone App</h1>
+      </div>
+      <div className="cellphone">
+        <Video />
+      </div>
+      <VideoSidebar />
+      <VideoFooter  />
     </div>
   );
 }
-
 export default App;

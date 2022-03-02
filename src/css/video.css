@@ -1,0 +1,25 @@
+.video{
+/* snap begins */
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: auto;
+    width: 360px;
+    height: 800px;
+
+    scroll-snap-align: start;
+/* snap ends */
+}
+.video__player {
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: auto;
+    width: 360px;
+    height: 800px;
+    border-radius: 16px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
